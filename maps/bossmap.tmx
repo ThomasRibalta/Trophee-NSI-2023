@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.1" orientation="orthogonal" renderorder="right-down" width="20" height="20" tilewidth="16" tileheight="16" infinite="0" nextlayerid="3" nextobjectid="21">
+ <tileset firstgid="1" source="decors_3.tsx"/>
+ <tileset firstgid="81" source="decors.tsx"/>
+ <layer id="1" name="Calque de Tuiles 1" width="20" height="20">
+  <data encoding="csv">
+55,56,55,56,55,56,55,56,55,56,93,56,55,56,55,56,55,56,55,56,
+63,93,63,64,63,64,63,64,63,64,63,64,63,64,63,64,63,64,93,64,
+55,56,55,56,55,56,55,56,55,56,55,56,55,56,55,56,55,56,55,56,
+63,64,63,64,63,64,63,64,63,64,63,64,63,64,63,64,63,64,63,64,
+55,56,55,56,55,56,55,56,55,56,55,56,55,56,55,56,55,56,55,56,
+63,64,63,64,63,64,63,64,63,64,63,64,63,64,63,64,63,64,63,64,
+55,56,55,56,55,56,55,56,55,56,55,56,55,56,55,56,55,56,55,56,
+63,64,63,64,63,64,63,64,63,64,63,64,63,64,63,64,63,64,63,64,
+55,56,55,56,55,56,55,56,55,56,55,56,55,56,55,56,55,56,55,56,
+63,64,63,64,63,64,63,64,63,64,63,64,63,64,63,64,63,64,63,64,
+55,56,55,56,55,56,55,56,55,56,55,56,55,56,55,56,55,56,55,56,
+63,64,63,64,63,64,63,64,63,64,63,64,63,64,63,64,63,64,63,64,
+55,56,55,56,55,56,55,56,55,56,55,56,55,56,55,56,55,56,55,56,
+63,64,63,64,63,64,63,64,63,64,63,64,63,64,63,64,63,64,63,64,
+55,56,55,56,55,56,55,56,55,56,55,56,55,56,55,56,55,56,55,56,
+63,64,63,64,63,64,63,64,63,64,63,64,63,64,63,64,63,64,63,64,
+55,56,55,56,55,56,55,56,55,56,55,56,55,56,55,56,55,56,55,56,
+63,64,63,64,63,64,63,64,63,64,63,64,63,64,63,64,63,64,63,64,
+55,56,55,56,55,56,55,56,55,56,55,56,55,56,55,56,55,56,55,56,
+63,64,63,64,63,64,63,64,63,88,88,64,63,64,63,64,63,64,63,64
+</data>
+ </layer>
+ <objectgroup id="2" name="mur_boss">
+  <object id="1" name="Mur_boss1" x="0.740312" y="281.319" width="319.075" height="1.85075"/>
+  <object id="2" name="dep" x="288.352" y="16.657" width="15.5466" height="15.9167"/>
+  <object id="3" name="dep" x="159.907" y="0" width="16.657" height="17.0272"/>
+  <object id="4" name="dep" x="15.9167" y="15.9167" width="16.657" height="16.657"/>
+  <object id="10" name="spawn_boss" x="39.2366" y="43.6785">
+   <point/>
+  </object>
+  <object id="12" name="spawn" x="159.537" y="260.611">
+   <point/>
+  </object>
+  <object id="13" name="sortie_usine" x="143.991" y="304.268" width="32.2036" height="15.5466"/>
+  <object id="14" name="Mur_boss2" x="-0.370156" y="0" width="321.666" height="2.59109"/>
+  <object id="15" name="Mur_boss0" x="-0.370156" y="-0.370156" width="1.85078" height="284.28"/>
+  <object id="16" name="Mur_boss" x="319.445" y="0.370156" width="2.22094" height="283.17"/>
+  <object id="17" name="collision" x="-0.370156" y="-1.48062" width="325.367" height="4.44187"/>
+  <object id="18" name="collision" x="-1.48062" y="0.740312" width="3.70156" height="320.925"/>
+  <object id="19" name="collision" x="-2.96125" y="317.594" width="324.997" height="4.44187"/>
+  <object id="20" name="collision" x="317.224" y="-1.48062" width="5.55234" height="322.776"/>
+ </objectgroup>
+ <objectgroup id="13" name="poubelle_verte">
+  <object id="66" name="poubelle_verte" x="555555555" y="619.636" width="25.6364" height="21.8182"/>
+ </objectgroup>
+ <objectgroup id="17" name="poubelle_noir">
+  <object id="109" name="poubelle_noir" x="5555555" y="620.136" width="26.5" height="21.25"/>
+ </objectgroup>
+ <objectgroup id="18" name="poubelle_jaune">
+  <object id="68" name="poubelle_jaune" x="5555555" y="619.455" width="25.4545" height="21.4545"/>
+ </objectgroup>
+ <objectgroup id="3" name="récup">
+  <object id="1" name="récup" x="1.55556e+09" y="672" width="34.3333" height="33"/>
+ </objectgroup>
+</map>
