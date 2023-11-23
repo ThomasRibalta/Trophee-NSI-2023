@@ -1,0 +1,6 @@
+pygame
+moviepy
+pytmx
+pyscroll
+dataclasses
+pycairo
